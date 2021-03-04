@@ -1,0 +1,16 @@
+{
+  "name": "landingpage-project",
+  "version": "1.0.0",
+  "description": "Projet de Landing page utilisant la technologie Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded"
+  },
+  "keywords": [
+    "sass",
+    "formation",
+    "github"
+  ],
+  "author": "Emmanuelle/Damien",
+  "license": "ISC"
+}
