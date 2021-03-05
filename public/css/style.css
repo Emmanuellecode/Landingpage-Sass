@@ -1,3 +1,10 @@
-
+.block__heading {
+  color: #de15ac;
+  font-size: 3em;
+  font-weight: bold;
+}
+.block__paragraph {
+  color: #22a701;
+}
 
 /*# sourceMappingURL=style.css.map */
