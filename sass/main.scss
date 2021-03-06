@@ -1,5 +1,7 @@
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/functions';
+@import 'utils/helpers';
 
 @import 'vendors/bootstrap';
 
