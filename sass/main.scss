@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
@@ -7,14 +6,24 @@
 @import "./base/reset";
 @import "./base/typography";
 @import "./components/buttons";
+@import "./components/carousel";
+@import "./components/cover";
+@import "./components/dropdown";
 @import "./layouts/header";
-@import "./layouts/nav";
 @import "./layouts/container";
-@import "./layouts/form";
+@import "./layouts/footer";
+@import "./layouts/forms";
+@import "./layouts/grid";
+@import "./layouts/navigation";
+@import "./layouts/sidebar";
 @import "./pages/work";
 @import "./pages/about";
 @import "./pages/project";
+@import "./pages/home";
+@import "./pages/contact";
 @import "./vendors/bootstrap";
+@import "./themes/theme";
+@import "./themes/admin";
 
 //Test
 .block{
@@ -27,26 +36,10 @@
         color: $color-secondary;
     }
 }
-=======
 
 
-@import 'base/typography';
 
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
 
-@import 'components/buttons';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
 
-@import 'pages/home';
-@import 'pages/contact';
 
-@import 'themes/theme';
-@import 'themes/admin';
->>>>>>> dbdf18d7962e600d4229ea51520d2464fdc585e2
+
