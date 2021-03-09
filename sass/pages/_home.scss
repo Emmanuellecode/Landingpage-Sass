@@ -1,1 +1,29 @@
 // Home specific styles
+* {
+    box-sizing: border-box;
+}
+
+// Footer
+
+.footer{
+    color: $color-secondary-text;
+    background-color: $background-color-footer;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    &__block{
+        width: 35%;
+        margin: auto;
+    }
+    &__link{
+        color: $color-link-footer;
+        &:hover{
+            text-decoration: none;
+            color:$background-color-footer;
+        }
+    }
+}
+.footer__section, .footer__paragraph{
+    padding: 2em;
+}

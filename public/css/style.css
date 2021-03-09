@@ -1,3 +1,35 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  color: #FFFFFF;
+  background-color: #333333;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+.footer__block {
+  width: 35%;
+  margin: auto;
+}
+.footer__link {
+  color: #ADCCE9;
+}
+.footer__link:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footer__section, .footer__paragraph {
+  padding: 2em;
+}
+
 .block__heading {
   color: #70de15;
   font-size: 3em;
