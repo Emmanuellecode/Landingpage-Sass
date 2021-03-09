@@ -1,8 +1,4 @@
 // Home specific styles
-* {
-    box-sizing: border-box;
-}
-
 // Footer
 
 .footer{
@@ -13,14 +9,14 @@
     line-height: 1.6;
     font-size: 0.875rem;
     &__block{
-        width: 35%;
+        width: 65%;
         margin: auto;
     }
     &__link{
         color: $color-link-footer;
         &:hover{
             text-decoration: none;
-            color:$background-color-footer;
+            color:$link-hover-footer;
         }
     }
 }

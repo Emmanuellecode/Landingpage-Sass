@@ -2,10 +2,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .footer {
   color: #FFFFFF;
   background-color: #333333;
@@ -15,7 +11,7 @@ body {
   font-size: 0.875rem;
 }
 .footer__block {
-  width: 35%;
+  width: 65%;
   margin: auto;
 }
 .footer__link {
@@ -23,7 +19,7 @@ body {
 }
 .footer__link:hover {
   text-decoration: none;
-  color: #333333;
+  color: grey;
 }
 
 .footer__section, .footer__paragraph {
