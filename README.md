@@ -12,7 +12,7 @@
 
 ---------
 
-<p align="center"><img src="https://github.com/Emmanuellecode/Landingpage-Sass/blob/main/public/images/croissant.jpeg"></p>
+<p align="center"><img src="https://github.com/Emmanuellecode/Landingpage-Sass/blob/main/public/images/website-template-preview.jpg"></p>
 
 
 
