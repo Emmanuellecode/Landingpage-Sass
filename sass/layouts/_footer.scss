@@ -1,1 +1,25 @@
 // Footer
+// Footer
+
+.footer{
+    color: $color-secondary-text;
+    background-color: $background-color-footer;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    &__block{
+        width: 65%;
+        margin: auto;
+    }
+    &__link{
+        color: $color-link-footer;
+        &:hover{
+            text-decoration: none;
+            color:$link-hover-footer;
+        }
+    }
+}
+.footer__section, .footer__paragraph{
+    padding: 2em;
+}
