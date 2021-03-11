@@ -6,6 +6,11 @@ $color-secondary: #FFFFFF;
 $color-link-footer: #ADCCE9;
 $background-color-secondary: #333333;
 $link-hover-footer : grey;
-//Footer Map font-size
-$font-size:(text:0.875rem);
+
+//Footer links map
+$links-mods : (
+    initial : $color-link-footer,
+    hover : $link-hover-footer, 
+);
+
 
