@@ -387,6 +387,12 @@ body {
   margin: 40px 0 auto 170px;
 }
 
+#navigation {
+  z-index: 1;
+  height: 30px;
+  background-color: yellow;
+}
+
 /*
 //Test
 .block{
