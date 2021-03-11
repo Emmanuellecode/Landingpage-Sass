@@ -33,19 +33,61 @@
 @import "./themes/theme";
 @import "./themes/admin";
 
-/*
-//Test
-.block{
-    &__heading{
-        color: $color-primary;
-        font-size: 3em;
-        font-weight: bold;
+@import "font-awesome/fontawesome.scss";
+@import "font-awesome/solid.scss";
+@import "font-awesome/brands.scss";
+@import "font-awesome/regular.scss";
+
+//Font Awesome Icons
+
+  .twitter {
+    @extend %fa-icon;
+    @extend .fab;
+  
+    &:before {
+      content: fa-content($fa-var-twitter);
     }
-    &__paragraph{
-        color: $color-secondary;
+  }
+  .instagram {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+      content: fa-content($fa-var-instagram);
     }
-}
-*/
+  }
+  .facebook {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+      content: fa-content($fa-var-facebook);
+    }
+  }
+  .hamburger {
+    @extend %fa-icon;
+    @extend .fas;
+
+    &:before {
+      content: fa-content($fa-var-bars);
+    }
+  }
+  .ice-cream {
+    @extend %fa-icon;
+    @extend .fas;
+
+    &:before {
+      content: fa-content($fa-var-ice-cream);
+    }
+  }
+  // Test modif color and size 
+  .ice-cream{
+      font-size: 5em;
+      color: red;
+  }
+
+
+
 .main {
     padding: 0 15px;
 // Window width >= 576px
