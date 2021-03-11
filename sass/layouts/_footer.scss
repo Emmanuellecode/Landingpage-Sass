@@ -1,13 +1,9 @@
 // Footer
-// Footer
 
 .footer{
-    color: $color-secondary-text;
-    background-color: $background-color-footer;
-    text-align: center;
-    width: 100%;
+    @include container($color:$color-secondary , $bg:$background-color-secondary);
+    font-size: map-get($font-size,text);
     line-height: 1.6;
-    font-size: 0.875rem;
     &__block{
         width: 65%;
         margin: auto;

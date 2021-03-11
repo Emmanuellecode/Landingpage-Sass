@@ -3,12 +3,12 @@ body {
 }
 
 .footer {
-  color: #FFFFFF;
-  background-color: #333333;
   text-align: center;
+  color: #FFFFFF;
   width: 100%;
-  line-height: 1.6;
+  background-color: #333333;
   font-size: 0.875rem;
+  line-height: 1.6;
 }
 .footer__block {
   width: 65%;
@@ -24,15 +24,6 @@ body {
 
 .footer__section, .footer__paragraph {
   padding: 2em;
-}
-
-.block__heading {
-  color: #70de15;
-  font-size: 3em;
-  font-weight: bold;
-}
-.block__paragraph {
-  color: #a101a7;
 }
 
 /*# sourceMappingURL=style.css.map */
