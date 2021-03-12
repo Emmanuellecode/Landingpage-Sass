@@ -337,13 +337,47 @@ template {
   display: none;
 }
 
-.block__heading {
-  color: #70de15;
-  font-size: 3em;
-  font-weight: bold;
+* {
+  box-sizing: border-box;
 }
-.block__paragraph {
-  color: #a101a7;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*
+//Test
+.block{
+    &__heading{
+        color: $color-primary;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    &__paragraph{
+        color: $color-secondary;
+    }
+}
+*/
+.main {
+  padding: 0 15px;
+}
+@media (min-width: 576px) {
+  .main {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 992px) {
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1400px) {
+  .main {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
