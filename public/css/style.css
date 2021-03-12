@@ -408,8 +408,8 @@ body {
   display: block;
   width: 40px;
   height: 32px;
-  position: absolute;
-  text-align: center;
+  position: relative;
+  margin: 0 auto;
   cursor: pointer;
   opacity: 0;
   z-index: 2;
@@ -434,8 +434,8 @@ body {
   display: block;
   width: 33px;
   height: 4px;
-  margin-bottom: 5px;
   position: relative;
+  margin: 0 auto 5px auto;
   background: white;
   border-radius: 3px;
   z-index: 1;
@@ -451,8 +451,8 @@ body {
 
 #menu {
   position: absolute;
-  width: 230px;
-  height: 690px;
+  width: 240px;
+  height: 942px;
   opacity: 0.9;
   margin: -100px 0 0 -50px;
   padding: 50px;

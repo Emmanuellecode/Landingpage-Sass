@@ -1,6 +1,4 @@
 // Navigation
-
-
 #menuToggle {
 	display: block;
 	position: relative;
@@ -21,8 +19,8 @@
 		display: block;
 		width: 40px;
 		height: 32px;
-		position: absolute;
-		text-align: center;
+		position: relative;
+		margin: 0 auto; // click hamburger
 		cursor: pointer;
 		opacity: 0;
 		z-index: 2;
@@ -51,9 +49,9 @@
 		display: block;
 		width: 33px;
 		height: 4px;
-		margin-bottom: 5px;
 		position: relative;
-		background:white;
+		margin: 0 auto 5px auto;
+		background:white; //hamburger
 		border-radius: 3px;
 		z-index: 1;
 		transform-origin: 4px 0px;
@@ -66,10 +64,10 @@
 		}
 	}
 }
-#menu {
+#menu { //menu qui s'ouvre
 	position: absolute;
-	width: 230px;
-    height: 690px;
+	width: 240px;
+    height: 942px;
     opacity: 0.9;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
