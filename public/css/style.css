@@ -346,7 +346,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#header__background-img-fixed {
+.header__background-img-fixed {
   background-image: url("../../public/images/header_tablier.jpeg");
   background-size: cover;
   background-position: center;
@@ -354,6 +354,8 @@ body {
   height: 63em;
   position: fixed;
   z-index: 1;
+  opacity: 1;
+  filter: brightness(0.7);
 }
 
 .content-position-relative {
@@ -367,17 +369,20 @@ body {
   text-align: center;
 }
 .header__block h1 {
-  color: white;
+  color: #FFFFFF;
   font-family: "Playfair Display", serif !important;
   font-weight: 700;
   font-size: 4rem;
   margin: 123px 106px 0;
 }
 .header__block p {
-  color: white;
+  color: #FFFFFF;
   font-family: "Open Sans", sans-serif !important;
   width: 699px;
-  margin: 20px auto 0;
+  margin: 20px auto;
+}
+.header__block i {
+  font-size: 100px;
 }
 
 .footer {
@@ -404,11 +409,7 @@ body {
   padding: 2em;
 }
 
-.navigation {
-  margin: 6px;
-}
-
-#menuToggle {
+.menuToggle {
   display: block;
   position: relative;
   top: 10px;
@@ -416,15 +417,15 @@ body {
   -webkit-user-select: none;
   user-select: none;
 }
-#menuToggle a {
+.menuToggle a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   transition: color 0.3s ease;
 }
-#menuToggle a:hover {
-  color: tomato;
+.menuToggle a:hover {
+  color: grey;
 }
-#menuToggle input {
+.menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -435,36 +436,19 @@ body {
   z-index: 2;
   -webkit-touch-callout: none;
 }
-#menuToggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(0deg) translate(0, 0);
-  background: white;
-}
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(0deg) translate(0, 0);
-}
-#menuToggle input:checked ~ ul {
+.menuToggle input:checked ~ ul {
   transform: none;
 }
-#menuToggle span {
+.menuToggle span {
   display: block;
   width: 23px;
   height: 2.5px;
   position: relative;
   margin: -24px auto 30px auto;
-  background: white;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-}
-#menuToggle span:first-child {
-  transform-origin: 0% 0%;
-}
-#menuToggle span:nth-last-child(2) {
-  transform-origin: 0% 100%;
+  background: #FFFFFF;
 }
 
-#menu {
+.menu {
   position: absolute;
   width: 295px;
   height: 64.5em;
@@ -472,14 +456,12 @@ body {
   margin: -100px 0 0 -50px;
   padding: 50px;
   background: black;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-#menu li {
+.menu li {
   padding: 10px 0;
+  font-size: 16px;
 }
 
 /*!

@@ -1,8 +1,5 @@
 // Navigation
-.navigation{
-	margin: 6px;
-}
-#menuToggle {
+.menuToggle {
 	display: block;
 	position: relative;
 	top: 10px;
@@ -11,10 +8,10 @@
 	user-select: none;
 	a {
 		text-decoration: none;
-		color: white;
+		color: $color-secondary;
 		transition: color 0.3s ease;
 		&:hover {
-			color: tomato;
+			color: grey;
 		}
 	}
 	input {
@@ -29,14 +26,6 @@
 		-webkit-touch-callout: none;
 		&:checked {
 			~ {
-				span {
-					opacity: 1;
-					transform: rotate(0deg) translate(0, 0);
-					background: white;
-					&:nth-last-child(2) {
-						transform: rotate(0deg) translate(0, 0);
-					}
-				}
 				ul {
 					transform: none;
 				}
@@ -49,32 +38,21 @@
     	height: 2.5px;
     	position: relative;
     	margin: -24px auto 30px auto;
-		background:white; //hamburger
-		z-index: 1;
-		transform-origin: 4px 0px;
-		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
-		&:first-child {
-			transform-origin: 0% 0%;
-		}
-		&:nth-last-child(2) {
-			transform-origin: 0% 100%;
-		}
+		background:$color-secondary; //hamburger
 	}
 }
-#menu { //menu qui s'ouvre
+.menu { //menu qui s'ouvre
 	position: absolute;
 	width: 295px;
     height: 64.5em;
     opacity: 0.9;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
-	background: black;
-	list-style-type: none;
-	-webkit-font-smoothing: antialiased;
-	transform-origin: 0% 0%;
-	transform: translate(-100%, 0);
+	background: $color-primary;
+	transform: translate(-100%, 0,);
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	li {
 		padding: 10px 0;
+		font-size: 16px;
 	}
 }

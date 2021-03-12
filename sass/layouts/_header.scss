@@ -1,35 +1,39 @@
 // Header
-#header__background-img-fixed {
-        background-image: url("#{$imgpath}header_tablier.jpeg");
-        background-size: cover;
-        background-position: center;
-		width: 100%;
-		height: 63em;
-		position: fixed;
-		z-index: 1;
+.header__background-img-fixed {
+	background-image: url("#{$imgpath}header_tablier.jpeg");
+    background-size: cover;
+    background-position: center;
+	width: 100%;
+	height: 63em;
+	position: fixed;
+	z-index: 1;
+	opacity: 1.0;
+    filter: brightness(.7);
 }
-
 .content-position-relative {
 	position: relative;
 	z-index: 2;
 	text-align: center;
 }
-
 .header__block{
 	margin: 72px auto;
 	text-align: center;
 	h1{
-		color: white;
+		color: $color-secondary;
 		font-family: "Playfair Display", serif !important;
 		font-weight: 700;
 		font-size: 4rem;
 		margin: 123px 106px 0;
 	}
 	p{
-		color: white;
+		color: $color-secondary;
 		font-family: "Open Sans",sans-serif !important;
 		width: 699px;
-		margin: 20px auto 0;
+		margin: 20px auto;
+
+	}
+	i{
+		font-size: 100px;
 	}
 }
 
