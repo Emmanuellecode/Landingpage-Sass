@@ -19,7 +19,6 @@ html {
  */
 body {
   margin: 0;
-  height: 3000px;
 }
 
 /**
@@ -387,6 +386,30 @@ body {
   margin: 40px 0 auto 170px;
 }
 
+.footer {
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #333333;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.footer__block {
+  width: 65%;
+  margin: auto;
+}
+.footer__link {
+  color: #ADCCE9;
+}
+.footer__link:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer__section, .footer__paragraph {
+  padding: 2em;
+}
+
 #menuToggle {
   display: block;
   position: relative;
@@ -469,19 +492,6 @@ body {
   font-size: 22px;
 }
 
-/*
-//Test
-.block{
-    &__heading{
-        color: $color-primary;
-        font-size: 3em;
-        font-weight: bold;
-    }
-    &__paragraph{
-        color: $color-secondary;
-    }
-}
-*/
 .main {
   padding: 0 15px;
 }

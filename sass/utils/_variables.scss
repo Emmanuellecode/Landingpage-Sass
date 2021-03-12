@@ -1,5 +1,17 @@
 // Sass Variables
-$color-primary: #70de15;
-$color-secondary: #a101a7;
+$color-primary: black;
+$color-secondary: #FFFFFF;
 
+// Footer variables color text
+$color-link-footer: #ADCCE9;
+$background-color-secondary: #333333;
+$link-hover-footer : grey;
+
+//Footer links map
+$links-mods : (
+    initial : $color-link-footer,
+    hover : $link-hover-footer, 
+);
+
+//Chemin image
 $imgpath: '../../public/images/';

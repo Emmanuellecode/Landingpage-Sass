@@ -1,1 +1,21 @@
 // Footer
+
+.footer{
+    @include container($color:$color-secondary , $bg:$background-color-secondary);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    &__block{
+        width: 65%;
+        margin: auto;
+    }
+    &__link{
+        color: map-get($links-mods , initial );
+        &:hover{
+            text-decoration: none;
+            color:map-get($links-mods , hover );
+        }
+    }
+}
+.footer__section, .footer__paragraph{
+    padding: 2em;
+}

@@ -1,4 +1,14 @@
 // Sass Mixins
+
+// Text center
+@mixin container($color : $color-primary, $bg : $color-secondary){
+    text-align: center;
+    color: $color;
+    width: 100%;
+    background-color: $bg;
+};
+
+
 // Small devices
 @mixin sm {
     @media (min-width: #{$screen-sm-min}) {
