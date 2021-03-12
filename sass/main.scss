@@ -33,23 +33,71 @@
 @import "./themes/theme";
 @import "./themes/admin";
 
+@import "font-awesome/fontawesome.scss";
+@import "font-awesome/solid.scss";
+@import "font-awesome/brands.scss";
+@import "font-awesome/regular.scss";
+
+//Font Awesome Icons
+
+  .twitter {
+    @extend %fa-icon;
+    @extend .fab;
+    &:before {
+      content: fa-content($fa-var-twitter);
+    }
+  }
+  .instagram {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+      content: fa-content($fa-var-instagram);
+    }
+  }
+  .facebook {
+    @extend %fa-icon;
+    @extend .fab;
+
+    &:before {
+      content: fa-content($fa-var-facebook);
+    }
+  }
+  .hamburger {
+    @extend %fa-icon;
+    @extend .fas;
+
+    &:before {
+      content: fa-content($fa-var-bars);
+    }
+  }
+  .ice-cream {
+    @extend %fa-icon;
+    @extend .fas;
+
+    &:before {
+      content: fa-content($fa-var-ice-cream);
+    }
+  }
+  // Test modif color and size 
+  .ice-cream{
+      font-size: 1em;
+      color: red;
+  }
 
 .main {
-    padding: 0 15px;
+   
 // Window width >= 576px
     @include sm {
-        padding: 0 20px;
+
     }
 // Window width >= 992px
     @include lg {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1100px;
+       
     }
 // Window width >= 1400px
     @include rwd(1400) {
-        margin-bottom: 20px;
-        margin-top: 20px;
+        
     }
 }
 
