@@ -1,1 +1,44 @@
 // Header
+#header__background-img-fixed {
+        background-image: url("#{$imgpath}header_tablier.jpeg");
+        background-size: cover;
+        background-position: center;
+		width: 1057px;
+		height: 640px;
+		top: -45px;
+		position: fixed;
+		z-index: 1;
+		margin-top: 50px;
+}
+
+.content-position-relative {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+
+	#header__img_position-relative{
+		width: 365px;
+		height: 229px;
+		margin: 30px auto 0;
+	}
+	#header__txt-position-relative{
+		width: 1000px;
+		margin: 0px 0px 70px 0px;
+		h1{
+			color: white;
+			font-family: 'Playfair Display', serif !important;
+			width:700px;
+			font-weight: 700;
+			font-size: 67px;
+			margin: 115px 0px 0px 160px;
+		}
+		p{
+			color: white;
+			font-family: 'Open Sans',sans-serif;
+			width: 700px;
+			margin: 40px 0 auto 170px;
+		}
+	}
+}
+
+
