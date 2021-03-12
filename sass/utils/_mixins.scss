@@ -1,5 +1,4 @@
 // Sass Mixins
-<<<<<<< HEAD
 
 // Text center
 @mixin container($color : $color-primary, $bg : $color-secondary){
@@ -10,7 +9,6 @@
 };
 
 
-=======
 // Small devices
 @mixin sm {
     @media (min-width: #{$screen-sm-min}) {
@@ -45,4 +43,3 @@
        @content;
     }
  }
->>>>>>> 95c0792b467364b0af1289c6d922c2714cd4d978
