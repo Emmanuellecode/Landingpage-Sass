@@ -7,28 +7,42 @@
     <title>Project Landing Page Sass</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Maison</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="#">about</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <footer class="footer">
-        <div class="footer__block">
-            <p class="footer__paragraph">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        <section class="footer footer__section">
-            <a class="footer__link" href=#><span>Website Templates</span></a>
-            <span> created with</span>
-            <a class="footer__link" href="#"><span>Website Builder Software</span></a>
-        </section>        
+    <div class="main">
+        <div id="header__background-img-fixed"> 
         </div>
-    </footer>
+        <div class="content-position-relative">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                  
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
+                    <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                    </ul>
+                </div>
+            </nav>  
+            <header id="block_header">
+                <img id="header__img_position-relative" src="../../public/images/best_restaurant.png" alt="best_restaurant">
+                <div id="header__txt-position-relative">
+                    <h1>One Step to Making a <br> Good Start</h1>
+                    <p>Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam pretium feugiat. Duis <br>sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! <br>In justo est, sollicitudin eu scelerisque pretium, placerat eget elit.</p>
+                    <p style="margin: 135px auto 0; color: white; width:150px; height:20px; background-color: yellow;">Q</p>
+                </div>
+            </header>
+            <footer class="footer">
+                <div class="footer__block">
+                    <p class="footer__paragraph">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <section class="footer footer__section">
+                    <a class="footer__link" href=#><span>Website Templates</span></a>
+                    <span> created with</span>
+                    <a class="footer__link" href="#"><span>Website Builder Software</span></a>
+                </section>        
+                </div>
+            </footer>
+        </div> 
+    </div> 
 </body>
 </html>

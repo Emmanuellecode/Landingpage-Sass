@@ -1,4 +1,5 @@
 // Sass Mixins
+<<<<<<< HEAD
 
 // Text center
 @mixin container($color : $color-primary, $bg : $color-secondary){
@@ -9,3 +10,39 @@
 };
 
 
+=======
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+  
+ // Medium devices
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+  
+ // Large devices
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+  
+ // Extra large devices
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+  
+ // Custom devices
+ @mixin rwd($screen) {
+    @media (min-width: $screen+'px' ) {
+       @content;
+    }
+ }
+>>>>>>> 95c0792b467364b0af1289c6d922c2714cd4d978
