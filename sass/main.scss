@@ -43,7 +43,6 @@
   .twitter {
     @extend %fa-icon;
     @extend .fab;
-  
     &:before {
       content: fa-content($fa-var-twitter);
     }
@@ -82,7 +81,7 @@
   }
   // Test modif color and size 
   .ice-cream{
-      font-size: 5em;
+      font-size: 1em;
       color: red;
   }
 
