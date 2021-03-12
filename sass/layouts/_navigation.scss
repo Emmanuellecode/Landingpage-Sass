@@ -31,7 +31,11 @@
 			~ {
 				span {
 					opacity: 1;
+					transform: rotate(0deg) translate(0, 0);
 					background: white;
+					&:nth-last-child(2) {
+						transform: rotate(0deg) translate(0, 0);
+					}
 				}
 				ul {
 					transform: none;
@@ -70,20 +74,6 @@
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-	span { //croix menu deroulant
-		display: block;
-		width: 20px;
-		height: 2.5px;
-		position: relative;
-		margin: 5px 0px 8px 201px;
-		background: white;
-		opacity: 1;
-		transform: rotate(35deg) translate(0, 0);
-		&:nth-last-child(2) {
-				transform: rotate(-35deg) translate(0, 0);
-		}
-}
 	li {
 		padding: 10px 0;
 	}
