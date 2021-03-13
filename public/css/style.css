@@ -501,6 +501,17 @@ body {
   opacity: 0.6;
 }
 
+.container-meal {
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.container-meal__block80 {
+  width: 20%;
+  margin: auto;
+}
+
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

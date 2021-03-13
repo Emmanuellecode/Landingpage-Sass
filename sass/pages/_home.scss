@@ -34,9 +34,11 @@
 }
 
 // Block Menu (Emmanuelle)
+
 .container-meal{
     @include container($color : $color-primary , $bg : $background-color-primary);
     &__block80{
-        width: 80%;
+        width: 20%;
+        margin: auto;
     }
 };
