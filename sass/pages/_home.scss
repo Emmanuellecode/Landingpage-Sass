@@ -32,3 +32,11 @@
         opacity: 0.6;
     }
 }
+
+// Block Menu (Emmanuelle)
+.container-meal{
+    @include container($color : $color-primary , $bg : $background-color-primary);
+    &__block80{
+        width: 80%;
+    }
+};
