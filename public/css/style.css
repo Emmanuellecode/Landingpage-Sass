@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -385,17 +386,18 @@ body {
   font-size: 100px;
 }
 
+.containerBlock {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .footer {
-  text-align: center;
   color: #FFFFFF;
   width: 100%;
   background-color: #333333;
   font-size: 0.875rem;
+  margin: 0;
   line-height: 1.6;
-}
-.footer__block {
-  width: 65%;
-  margin: auto;
 }
 .footer__link {
   color: #ADCCE9;
@@ -465,6 +467,36 @@ body {
   font-size: 16px;
 }
 
+.container-meal {
+  color: black;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.menu__title1, .block-menu {
+  font-family: "Roboto", Verdana, Helvetica, serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 60px 0 25px 0;
+}
+
+.menu__title2 {
+  font-family: "Playfair Display";
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.block-menu__ingredient {
+  font-size: 16px;
+  padding: 18px 50px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
 .glace_choco__background-img {
   background-image: url("../../public/images/bouledeglacechoco.jpg");
   background-size: cover;
@@ -499,17 +531,6 @@ body {
   height: 190px;
   background-color: black !important;
   opacity: 0.6;
-}
-
-.container-meal {
-  text-align: center;
-  color: black;
-  width: 100%;
-  background-color: #f2f2f2;
-}
-.container-meal__block80 {
-  width: 20%;
-  margin: auto;
 }
 
 /*!
@@ -6675,11 +6696,6 @@ readers do not read off random characters that represent icons */
 
 .ice-cream:before {
   content: "";
-}
-
-.ice-cream {
-  font-size: 1em;
-  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

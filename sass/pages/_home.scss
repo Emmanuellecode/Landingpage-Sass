@@ -1,4 +1,21 @@
 // Home specific styles
+
+// BLOCK MENU (Emmanuelle)
+
+.container-meal{
+    @include container($color : $color-primary , $bg : $background-color-primary);
+}
+.menu__title1, .block-menu{
+    @include titleContent;
+}
+.menu__title2{
+    @include subtitleContent;
+}
+.block-menu__ingredient{
+    @include textContent;
+}
+
+// BLOCK GLACE CHOCO ( DAMIEN )
 .glace_choco__background-img{
     background-image: url("#{$imgpath}bouledeglacechoco.jpg");
     background-size: cover;
@@ -33,12 +50,3 @@
     }
 }
 
-// Block Menu (Emmanuelle)
-
-.container-meal{
-    @include container($color : $color-primary , $bg : $background-color-primary);
-    &__block80{
-        width: 20%;
-        margin: auto;
-    }
-};
