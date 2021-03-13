@@ -11,9 +11,14 @@
 .menu__title2{
     @include subtitleContent;
 }
-.block-menu__ingredient{
-    @include textContent;
+.block-menu{
+    padding: 45px 40px;
+    &__ingredient{
+        @include textContent;
+        padding-top: 20px;
+    }
 }
+
 
 // BLOCK GLACE CHOCO ( DAMIEN )
 .glace_choco__background-img{
