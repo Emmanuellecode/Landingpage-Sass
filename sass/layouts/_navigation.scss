@@ -11,7 +11,7 @@
 		color: $color-secondary;
 		transition: color 0.3s ease;
 		&:hover {
-			color: grey;
+			color: $link-hover;
 		}
 	}
 	input {
@@ -44,7 +44,8 @@
 .menu { //menu qui s'ouvre
 	position: absolute;
 	width: 295px;
-    height: 64.5em;
+    height: 830px;
+	position: fixed;
     opacity: 0.9;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
