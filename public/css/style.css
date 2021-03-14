@@ -473,7 +473,7 @@ body {
   background-color: #f2f2f2;
 }
 
-.menu__title1, .block-menu {
+.titleContent, .block-menu {
   font-family: "Roboto", Verdana, Helvetica, serif;
   letter-spacing: 4px;
   font-size: 18px;
@@ -482,7 +482,7 @@ body {
   padding-top: 60px;
 }
 
-.menu__title2 {
+.subtitleContent {
   font-family: "Playfair Display";
   font-size: 2.25rem;
   font-weight: 700;

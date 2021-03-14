@@ -5,10 +5,10 @@
 .container-meal{
     @include container($color : $color-primary , $bg : $background-color-primary);
 }
-.menu__title1, .block-menu{
+.titleContent, .block-menu{
     @include titleContent;
 }
-.menu__title2{
+.subtitleContent{
     @include subtitleContent;
 }
 .block-menu{
