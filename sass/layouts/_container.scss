@@ -1,4 +1,12 @@
-.containerBlock{
+.container-secondary{
     width: 80%;
     margin: 0 auto;
+    @include md{
+        width: 90%;
+        margin: 0 auto;
+    }
+    @include lg{
+        width: 90%;
+        margin: 0 auto;
+    } 
 }

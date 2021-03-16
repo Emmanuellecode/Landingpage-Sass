@@ -386,9 +386,21 @@ body {
   font-size: 100px;
 }
 
-.containerBlock {
+.container-secondary {
   width: 80%;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container-secondary {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .container-secondary {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .footer {
@@ -411,6 +423,12 @@ body {
   padding: 2em;
 }
 
+@media (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
 .menuToggle {
   display: block;
   position: relative;
@@ -467,13 +485,21 @@ body {
   font-size: 16px;
 }
 
-.container-meal {
+.container-principal {
   color: black;
   width: 100%;
   background-color: #f2f2f2;
 }
 
-.titleContent, .block-menu {
+.container-secondary {
+  padding: 30px 30px 50px 30px;
+}
+@media (min-width: 768px) {
+  .container-secondary {
+    padding: 0 0 90px 0;
+  }
+}
+.container-secondary__heading {
   font-family: "Roboto", Verdana, Helvetica, serif;
   letter-spacing: 4px;
   font-size: 18px;
@@ -481,16 +507,24 @@ body {
   font-weight: 300;
   padding-top: 60px;
 }
-
-.subtitleContent {
+.container-secondary__subtitleContent {
   font-family: "Playfair Display";
-  font-size: 2.25rem;
+  font-size: 35px;
   font-weight: 700;
-  margin: 15px 0;
+}
+@media (min-width: 576px) {
+  .container-secondary__subtitleContent {
+    font-size: 48px;
+  }
 }
 
 .block-menu {
-  padding: 45px 40px;
+  font-family: "Roboto", Verdana, Helvetica, serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 30px;
 }
 .block-menu__ingredient {
   font-size: 16px;
@@ -498,7 +532,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.5px;
   font-weight: 300;
-  padding-top: 20px;
+  padding: 10px 0;
 }
 
 .glace_choco__background-img {
@@ -6700,17 +6734,6 @@ readers do not read off random characters that represent icons */
 
 .ice-cream:before {
   content: "";
-}
-
-@media (min-width: 992px) {
-  .main .containerBlock {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .main .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

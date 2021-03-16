@@ -14,7 +14,6 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 300;
-    padding-top: 60px;
 };
 @mixin textContent{
     font-size: 16px;
@@ -25,11 +24,11 @@
 }
 @mixin subtitleContent{
     font-family: 'Playfair Display';
-    font-size: 2.25rem;
+    font-size: 35px;
     font-weight: 700;
-    margin: 15px 0;
 }
 
+// Medias queries 
 
 // Small devices
 @mixin sm {
@@ -42,11 +41,6 @@
 @mixin md {
 @media (min-width: #{$screen-md-min}) {
     @content;
-    .containerBlock{
-        width: 90%;
-        margin: 0 auto;
-       
-    }
 }
 }
 
@@ -54,22 +48,12 @@
 @mixin lg {
 @media (min-width: #{$screen-lg-min}) {
     @content;
-
-    .containerBlock{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .grid-container{
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-    }
 }
 }
 
 // Extra large devices
 @mixin xl {
 @media (min-width: #{$screen-xl-min}) {
-    
     @content;
 }
 }

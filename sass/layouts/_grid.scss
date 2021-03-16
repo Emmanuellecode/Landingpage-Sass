@@ -1,1 +1,7 @@
 // Grid system
+@media (min-width: #{$screen-lg-min}){
+    .grid-container{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+        }
+    }

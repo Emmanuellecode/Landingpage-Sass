@@ -2,20 +2,31 @@
 
 // BLOCK MENU (Emmanuelle)
 
-.container-meal{
+.container-principal{
     @include container($color : $color-primary , $bg : $background-color-primary);
 }
-.titleContent, .block-menu{
-    @include titleContent;
-}
-.subtitleContent{
-    @include subtitleContent;
+.container-secondary{
+    padding: 30px 30px 50px 30px;
+    @include md{
+        padding: 0 0 90px 0;
+    }
+    &__heading{
+        @include titleContent;
+        padding-top: 60px;
+    }
+    &__subtitleContent{
+        @include subtitleContent;
+        @include sm{
+            font-size: 48px;
+        }
+    }
 }
 .block-menu{
-    padding: 45px 40px;
+    @include titleContent;
+    padding: 30px;
     &__ingredient{
         @include textContent;
-        padding-top: 20px;
+        padding: 10px 0;
     }
 }
 
