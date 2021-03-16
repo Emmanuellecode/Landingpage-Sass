@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -386,17 +387,30 @@ body {
   font-size: 100px;
 }
 
+.container-secondary {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container-secondary {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .container-secondary {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 .footer {
-  text-align: center;
   color: #FFFFFF;
   width: 100%;
   background-color: #333333;
   font-size: 0.875rem;
+  margin: 0;
   line-height: 1.6;
-}
-.footer__block {
-  width: 65%;
-  margin: auto;
 }
 .footer__link {
   color: #ADCCE9;
@@ -410,6 +424,12 @@ body {
   padding: 2em;
 }
 
+@media (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
 .menuToggle {
   display: block;
   position: relative;
@@ -464,6 +484,55 @@ body {
 .menu li {
   padding: 10px 0;
   font-size: 16px;
+}
+
+.container-principal {
+  color: black;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.menu-container {
+  padding: 50px 30px 50px 30px;
+}
+@media (min-width: 768px) {
+  .menu-container {
+    padding: 90px 0;
+  }
+}
+.menu-container__heading1 {
+  font-family: "Roboto", Verdana, Helvetica, serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.menu-container__heading2 {
+  font-family: "Playfair Display";
+  font-size: 35px;
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  .menu-container__heading2 {
+    font-size: 48px;
+  }
+}
+
+.block-menu {
+  font-family: "Roboto", Verdana, Helvetica, serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 30px;
+}
+.block-menu__ingredient {
+  font-size: 16px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  padding: 10px 0;
 }
 
 .glace_choco__background-img {
@@ -6666,11 +6735,6 @@ readers do not read off random characters that represent icons */
 
 .ice-cream:before {
   content: "";
-}
-
-.ice-cream {
-  font-size: 1em;
-  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

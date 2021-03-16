@@ -3,11 +3,8 @@
 .footer{
     @include container($color:$color-secondary , $bg:$background-color-secondary);
     font-size: 0.875rem;
+    margin: 0;
     line-height: 1.6;
-    &__block{
-        width: 65%;
-        margin: auto;
-    }
     &__link{
         color: map-get($links-mods , initial );
         &:hover{

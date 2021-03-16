@@ -1,4 +1,36 @@
 // Home specific styles
+
+// BLOCK MENU (Emmanuelle)
+
+.container-principal{
+    @include container($color : $color-primary , $bg : $background-color-primary);
+}
+.menu-container{
+    padding: 50px 30px 50px 30px;
+        @include md{
+        padding: 90px 0;
+    }
+    &__heading1{
+        @include sans-serif-font;
+    }
+    &__heading2{
+        @include serif-font;
+        @include sm{
+            font-size: 48px;
+        }
+    }
+}
+.block-menu{
+    @include sans-serif-font;
+    padding: 30px;
+    &__ingredient{
+        @include text-font;
+        padding: 10px 0;
+    }
+}
+
+
+// BLOCK GLACE CHOCO ( DAMIEN )
 .glace_choco__background-img{
     background-image: url("#{$imgpath}bouledeglacechoco.jpg");
     background-size: cover;
@@ -34,5 +66,5 @@
             background-color: white;
         }
     }
-
 }
+

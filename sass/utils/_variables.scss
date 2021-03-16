@@ -1,17 +1,21 @@
+
 // Sass Variables
 $color-primary: black;
 $color-secondary: #FFFFFF;
 $link-hover: grey;
 
+//Background-color
+$background-color-primary: #f2f2f2;
+$background-color-secondary: #333333;
+
+
 // Footer variables color text
 $color-link-footer: #ADCCE9;
-$background-color-secondary: #333333;
-$link-hover-footer : grey; //variable link-hover utilisé pour un lien de la nav
 
 //Footer links map
 $links-mods : (
     initial : $color-link-footer,
-    hover : $link-hover-footer, 
+    hover : $link-hover, 
 );
 
 //Chemin image

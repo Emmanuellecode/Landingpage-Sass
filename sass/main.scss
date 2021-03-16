@@ -39,7 +39,6 @@
 @import "font-awesome/regular.scss";
 
 //Font Awesome Icons
-
   .twitter {
     @extend %fa-icon;
     @extend .fab;
@@ -79,11 +78,6 @@
       content: fa-content($fa-var-ice-cream);
     }
   }
-  // Test modif color and size 
-  .ice-cream{
-      font-size: 1em;
-      color: red;
-  }
 
 .main {
    
@@ -93,6 +87,7 @@
     }
 // Window width >= 992px
     @include lg {
+      
        
     }
 // Window width >= 1400px
