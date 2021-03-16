@@ -8,8 +8,6 @@
 	z-index: 1;
 }
 .glace_choco__block{
-    vertical-align: center;
-    text-align: center;
     p, a{
         color: $color-secondary;
     }
@@ -22,7 +20,7 @@
         margin: -8em 0 109px 60.5em
     }
 }
-.glace_choco_table{
+.glace_choco__table{
     width: 40%;
     color: $color-secondary;
     margin: -38em 0px 9em 45.5em;
