@@ -497,6 +497,11 @@ body {
   background-color: black !important;
   opacity: 0.6;
 }
+.glace_choco__table td .icons {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+}
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
