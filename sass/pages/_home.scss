@@ -5,27 +5,26 @@
 .container-principal{
     @include container($color : $color-primary , $bg : $background-color-primary);
 }
-.container-secondary{
-    padding: 30px 30px 50px 30px;
-    @include md{
-        padding: 0 0 90px 0;
+.menu-container{
+    padding: 50px 30px 50px 30px;
+        @include md{
+        padding: 90px 0;
     }
-    &__heading{
-        @include titleContent;
-        padding-top: 60px;
+    &__heading1{
+        @include sans-serif-font;
     }
-    &__subtitleContent{
-        @include subtitleContent;
+    &__heading2{
+        @include serif-font;
         @include sm{
             font-size: 48px;
         }
     }
 }
 .block-menu{
-    @include titleContent;
+    @include sans-serif-font;
     padding: 30px;
     &__ingredient{
-        @include textContent;
+        @include text-font;
         padding: 10px 0;
     }
 }
