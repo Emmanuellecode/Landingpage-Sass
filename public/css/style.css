@@ -493,7 +493,7 @@ body {
 }
 
 .menu-container {
-  padding: 50px 30px 50px 30px;
+  padding: 50px 30px;
 }
 @media (min-width: 768px) {
   .menu-container {
@@ -512,7 +512,7 @@ body {
   font-size: 35px;
   font-weight: 700;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .menu-container__heading2 {
     font-size: 48px;
   }
