@@ -572,6 +572,42 @@ body {
   background-color: white;
 }
 
+.block-history {
+  padding: 100px 0;
+  z-index: 1;
+}
+.block-history__image {
+  width: 85%;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.text-history {
+  width: 80%;
+  margin: 0 auto;
+}
+.text-history__heading1 {
+  font-family: "Roboto", Verdana, Helvetica, serif;
+  letter-spacing: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.text-history__heading2 {
+  font-family: "Playfair Display";
+  font-size: 35px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.text-history__text {
+  font-size: 16px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
