@@ -608,6 +608,20 @@ body {
   font-weight: 400;
 }
 
+@media (min-width: 768px) {
+  .grid-container, .block-history {
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .grid-container, .block-history {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+  }
+}
+
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

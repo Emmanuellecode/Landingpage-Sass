@@ -68,7 +68,7 @@
     }
 }
 
-// BLOCK MENU (Emmanuelle)
+// BLOCK HISTORY (Emmanuelle)
 
 .block-history{     
        padding: 100px 0;
@@ -92,5 +92,16 @@
     }
     &__text{
         @include text-font;
+    }
+}
+.grid-container, .block-history{
+    @include md{
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        margin: 0 auto;
+    }
+    @include lg{
+        display: grid;
+        grid-template-columns: 380px 380px 380px;
     }
 }
