@@ -101,14 +101,17 @@
         @include text-font;
     }
     &__hr{
-        width: 25%;
+        width: 30%;
         background-color:black;
         height: 1px;
+        margin-bottom: 30px !important; 
     }
-}
-.grid-container, .block-history{
-    @include md{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    &__span{
+        @include sans-serif-font;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin: 30px 0 5px;
+
     }
 }

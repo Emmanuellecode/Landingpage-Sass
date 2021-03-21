@@ -1,7 +1,13 @@
 // Grid system
 @media (min-width: #{$screen-lg-min}){
-    .grid-container{
+    .grid-container-two-columns{
             display: grid;
             grid-template-columns: repeat(2, 50%);
+        }
+    }
+    .grid-container-three-colums, .block-history{
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
         }
     }
